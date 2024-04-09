@@ -1,4 +1,4 @@
-module github.com/minekube/gate-plugin-template
+module github.com/gebl/gate-allowlist
 
 go 1.22.2
 
@@ -32,6 +32,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.1-0.20220423185008-bf980b35cac4 // indirect
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
+	github.com/oschwald/maxminddb-golang v1.12.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
 	github.com/pires/go-proxyproto v0.7.1-0.20231012122632-e5b291b295b4 // indirect
 	github.com/rs/xid v1.5.0 // indirect
