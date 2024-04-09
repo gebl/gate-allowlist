@@ -97,7 +97,7 @@ func allowListUserLogin(ctx context.Context) func(*proxy.LoginEvent) {
 
 		log := logr.FromContextOrDiscard(ctx)
 		log.Info(fmt.Sprintf("Hello %s (%s)! ", e.Player().Username(), e.Player().ID()))
-		content, err := os.ReadFile("./whitelist.json")
+		content, err := os.ReadFile("./allowlist.json")
 		if err != nil {
 			log.Info("Error during Unmarshal(): ", err)
 			e.Player().Disconnect(&c.Text{Content: "You must be a subscriber to join this server."})

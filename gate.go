@@ -1,7 +1,7 @@
 package main
 
 import (
-        "github.com/geblsd/gate-allowlist/plugins/allowlist"
+        "github.com/gebl/gate-allowlist/plugins/allowlist"
 	"go.minekube.com/gate/cmd/gate"
 	"go.minekube.com/gate/pkg/edition/java/proxy"
 )
